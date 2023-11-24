@@ -14,8 +14,8 @@ body {
 }
 .container {
   /* Centering container */
-  width: 70%; /* Width percentage */
-  min-width: 550px; /* Minimum width */
+  width: 40%; /* Width percentage */
+  min-width: 450px; /* Minimum width */
   position: absolute; /* Absolute positioning */
   transform: translate(-50%, -50%); /* Transforming */
   left: 50%; /* Horizontal position */
@@ -81,4 +81,8 @@ p {
   font-size: 14px;
   color: #707070;
   font-weight: 400;
+}
+
+.bottom p {
+  font-size: 1rem;
 }
