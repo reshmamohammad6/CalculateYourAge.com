@@ -1,0 +1,84 @@
+*,
+*:before,
+/* Select all elements, apply ':after' pseudo-element */
+*:after {
+  /* Reset padding, margin for consistent styling */
+  padding: 0;
+  margin: 0;
+
+  /* Use 'border-box' to include padding and border in the element's total width and height */
+  box-sizing: border-box;
+}
+body {
+  background-color: orange;
+}
+.container {
+  /* Centering container */
+  width: 40%; /* Width percentage */
+  min-width: 450px; /* Minimum width */
+  position: absolute; /* Absolute positioning */
+  transform: translate(-50%, -50%); /* Transforming */
+  left: 50%; /* Horizontal position */
+  top: 50%; /* Vertical position */
+  padding: 50px 30px; /* Padding around container */
+}
+.container * {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  outline: none;
+}
+.inputs-wrapper {
+  background-color: #080808;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+}
+input,
+button {
+  height: 50px;
+  background-color: #ffffff;
+  color: #080808;
+  font-weight: 500;
+  border-radius: 5px;
+}
+input {
+  width: 60%;
+  padding: 0 20px;
+  font-size: 14px;
+}
+button {
+  width: 30%;
+  float: right;
+}
+.outputs-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style wrapper for output elements */
+.outputs-wrapper div {
+  height: 100px;
+  width: 100px;
+  background-color: #080808;
+  border-radius: 5px;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  padding: 20px 0;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the span element */
+span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* Style paragraphs with given font properties */
+p {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 400;
+}
