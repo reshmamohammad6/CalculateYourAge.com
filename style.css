@@ -14,7 +14,7 @@ body {
 }
 .container {
   /* Centering container */
-  width: 80%; /* Width percentage */
+  width: 60%; /* Width percentage */
   min-width: 450px; /* Minimum width */
   position: absolute; /* Absolute positioning */
   transform: translate(-50%, -50%); /* Transforming */
