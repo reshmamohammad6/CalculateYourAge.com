@@ -90,11 +90,16 @@ p {
   .container {
   /* Centering container */
   width: 40%; /* Width percentage */
-  min-width: 450px; /* Minimum width */
+  min-width: 400px; /* Minimum width */
   position: absolute; /* Absolute positioning */
   transform: translate(-50%, -50%); /* Transforming */
   left: 50%; /* Horizontal position */
   top: 50%; /* Vertical position */
   padding: 50px 30px; /* Padding around container */
+}
+  input {
+  width:45%;
+  padding: 0 20px;
+  font-size: 14px;
 }
 }
