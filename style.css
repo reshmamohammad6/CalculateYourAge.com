@@ -87,7 +87,14 @@ p {
   font-size: 1rem;
 }
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+  .container {
+  /* Centering container */
+  width: 40%; /* Width percentage */
+  min-width: 450px; /* Minimum width */
+  position: absolute; /* Absolute positioning */
+  transform: translate(-50%, -50%); /* Transforming */
+  left: 50%; /* Horizontal position */
+  top: 50%; /* Vertical position */
+  padding: 50px 30px; /* Padding around container */
+}
 }
