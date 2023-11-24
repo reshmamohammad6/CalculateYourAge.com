@@ -43,12 +43,12 @@ button {
   border-radius: 5px;
 }
 input {
-  width:60%;
+  width:70%;
   padding: 0 10px;
   font-size: 14px;
 }
 button {
-  width: 30%;
+  width: 20%;
   float: right;
 }
 .outputs-wrapper {
@@ -108,10 +108,5 @@ footer {
   left: 50%; /* Horizontal position */
   top: 50%; /* Vertical position */
   padding: 50px 30px; /* Padding around container */
-}
-  input {
-  width:100%;
-  padding: 0 10px;
-  font-size: 14px;
 }
 }
